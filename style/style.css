@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext");
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #202124 !important;
+  background-color: #ede7f6;
+}
+
+label {
+  font-family: "Google Sans", Roboto, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1px !important;
+  line-height: 24px !important;
+  color: #202124 !important;
+  font-weight: 400 !important;
+  width: 100% !important;
+  word-break: break-word !important;
+}
+
+input.down {
+  margin-top: 5rem !important;
+}
+
+input.select-dropdown {
+  margin-top: 2rem !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #1a237e;
+  -webkit-box-shadow: 0 1px 0 0 #1a237e;
+  box-shadow: 0 1px 0 0 #1a237e;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: #1a237e;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+  color: #1a237e !important;
+}
+
+[type=radio]:checked + span:after, [type=radio].with-gap:checked + span:before, [type=radio].with-gap:checked + span:after {
+  border: 2px solid #1a237e !important;
+}
+
+[type=radio]:checked + span:after, [type=radio].with-gap:checked + span:before, [type=radio].with-gap:checked + span:after {
+  border: 2px solid #1a237e !important;
+}
+
+.validation {
+  display: none;
+}
+
+input.invalid + .validation, select.invalid + .validation {
+  display: block;
+}
+
+.token{
+  letter-spacing: 15px;
+}
+
+.title-card {
+  border-top: 7px solid #1a237e;
+}
+
+.title-card-green {
+  border-top: 7px solid green;
+}
+
+.confirmed{
+  width: 100px;
+}
+
+.btn.spacing{
+  letter-spacing: 0 !important;
+  font-weight: 600;
+}
+
+.title-card h1, .title-card h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: inherit;
+  color: #1a237e;
+}
+.title-card h1 {
+  font-size: 2.92rem;
+}
+.title-card h2 {
+  font-size: 1.64rem;
+}
+.title-card h6 {
+  font-weight: 500;
+  margin-left: -20px;
+  padding-left: 0;
+}
+.title-card p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.title-card p a {
+  text-decoration: none;
+  color: #1a237e;
+  font-weight: bold;
+  border-bottom: 2px solid #1a237e;
+}
+.title-card span {
+  float: right;
+}
+.title-card ol li {
+  font-size: 85%;
+}
+
+.form-fields .field-left {
+  padding-left: 0;
+}
+.form-fields .field-right {
+  padding-right: 0;
+}
+
+.card-panel {
+  border-radius: 5px;
+}
+
+.card-panel h1 {
+  font-size: 2.92rem;
+}
+.card-panel h1, .card-panel h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: inherit;
+  color: #1a237e;
+}
+
+.banner-container {
+  border-radius: 10px;
+}
+.banner-container .card-image {
+  border-radius: 10px;
+}
+.banner-container .card-image img {
+  border-radius: 10px;
+}
+
+.login-body {
+  height: calc(100% - 20px);
+}
+.login-body main {
+  display: flex;
+  height: calc(100% - 64px);
+  justify-content: center;
+  align-items: center;
+}
+.login-body main > .row {
+  width: 100%;
+}
+
+.login-body main .card-panel {
+  position: relative;
+  overflow: hidden;
+}
+.login-body main .card-panel .form-title {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  height: 180px;
+  padding-top: 55px;
+  background-color: #1a237e;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.login-body main .card-panel .form-title h1, .login-body main .card-panel .form-title p {
+  color: white;
+}
+.login-body main .card-panel .form-title + div {
+  margin-top: 110px;
+}
+.login-body main .card-panel .form-title + h1 {
+  margin-top: 130px;
+}
+
+.login-body .login-links {
+  /* display: flex; */
+  margin-bottom: 0 !important;
+  align-items: center;
+}
+
+.login-body .row{
+  margin-bottom: 0 !important;
+}
+.login-body .login-links button {
+  width: 50%;
+  font-weight: 500;
+  height: 40px;
+}
+
+.forgot-password-btn {
+  width: 40%;
+  font-weight: 500;
+  height: 40px;
+}
+.login-body .login-links a {
+  color: #1a237e;
+}
+.login-body .login-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+.custom-btn {
+  width: 50%;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.left-pd-10{
+  padding-left: 10px;
+}
+
+.right-pd-10{
+  padding-right: 10px;
+}
+
+.top-pd-10{
+  padding-top: 10px;
+}
+
+.bottom-pd-10{
+  padding-bottom: 10px;
+}
+
+.pd-10{
+  padding: 10px;
+}
+
+.x-pd-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.y-pd-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.left-pd-20{
+  padding-left: 20px;
+}
+
+.right-pd-20{
+  padding-right: 20px;
+}
+
+.pd-20{
+  padding: 20px;
+}
+
+.x-pd-20{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.y-pd-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.left-pd-50{
+  padding-left: 50px;
+}
+
+.right-pd-50{
+  padding-right: 50px;
+}
+
+.pd-50{
+  padding: 50px;
+}
+
+.x-pd-50{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.y-pd-50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  
+header nav .image-logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-left: 2%;
+}
+
+header nav .brand-logo {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-fields .field-left, .form-fields .field-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
